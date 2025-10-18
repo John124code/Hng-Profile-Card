@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile card - John.tsx </title>
+</head>
+<body>
+    <article data-testid="test-profile-card">
+    <figure>
+      <img src="image.peng.jpg" alt="Profile picture of John Olawoye" data-testid="test-user-avatar">
+    </figure>
+
+     <header>
+      <h2 data-testid="test-user-name">John Olawoye</h2>
+    </header>
+
+    <p data-testid="test-user-bio">
+       A dedicated and innovative frontend developer with a growing interest in Web3 technologies. I enjoy creating intuitive and efficient user interfaces using React and TypeScript, and I’m currently enhancing my skills through projects, collaboration, and the HNG Internship. I’m driven by a strong desire to build solutions that merge creativity with functionality
+    </p>
+
+    <p>
+      Current time (ms): 
+      <span data-testid="test-user-time" id="time"></span>
+    </p>
+
+     <nav data-testid="test-user-social-links">
+      <ul>
+        <li><a href="https://twitter.com/JohnOnStack" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter">Twitter</a></li>
+        <li><a href="https://github.com/john124code" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/john-olawoye-b16657361/" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin">LinkedIn</a></li>
+      </ul>
+    </nav>
+
+    <section data-testid="test-user-hobbies">
+      <h3>Hobbies</h3>
+      <ul>
+        <li>Coding</li>
+        <li>Reading tech blogs</li>
+        <li>Watching tutorials</li>
+        <li>Playing video games</li>
+        <li>Listening to music</li>
+      </ul>
+    </section>
+
+    <section data-testid="test-user-dislikes">
+      <h3>Dislikes</h3>
+      <ul>
+        <li>Procrastination</li>
+        <li>Messy code</li>
+        <li>Bad design</li>
+        <li>Lack of documentation</li>
+      </ul>
+    </section>
+    </article>
+    <script src="script.js"></script>
+</body>
+</html>
