@@ -29,10 +29,10 @@ Simply open `index.html` in your browser.
 ### Option 2: Local Server
 ```bash
 # Clone the repository
-git clone https://github.com/john124code/hngprofilecard.git
+git clone https://github.com/john124code/Hng-Profile-Card.git
 
 # Navigate to project folder
-cd hngprofilecard
+cd Hng-Profile-Card
 
 # Using Python 3
 python -m http.server 5500
@@ -44,11 +44,11 @@ npx http-server
 Then visit `http://localhost:5500` in your browser.
 
 ## 🌐 Live Demo
-[View Live Site](https://john124code.github.io/hngprofilecard/)
+**[View Live Site](https://john124code.github.io/Hng-Profile-Card/)**
 
 ## 📁 Project Structure
 ```
-hngprofilecard/
+Hng-Profile-Card/
 │
 ├── index.html          # Main HTML file
 ├── style.css           # Styling and responsive design
