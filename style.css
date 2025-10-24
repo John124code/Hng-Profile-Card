@@ -290,6 +290,7 @@ section ul li {
 .form-group input[aria-invalid="true"],
 .form-group textarea[aria-invalid="true"] {
     border-color: #e74c3c;
+    background-color: #fff5f5;
 }
 
 .form-group textarea {
@@ -299,12 +300,13 @@ section ul li {
 
 /* Error Messages */
 .error-message {
-    display: block;
+    display: none; /* Hidden by default */
     color: #e74c3c;
     font-size: 0.875rem;
     margin-top: 0.5rem;
     min-height: 1.25rem;
 }
+
 /* Success Message */
 .success-message {
     background: #d4edda;
