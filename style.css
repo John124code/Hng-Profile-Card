@@ -300,16 +300,18 @@ section ul li {
 
 /* Error Messages */
 .error-message {
-    display: block;
+    display: block !important;
     color: #e74c3c;
     font-size: 0.875rem;
     margin-top: 0.5rem;
-    min-height: 1.25rem;
+    min-height: 0;
     font-weight: 500;
+    line-height: 1.4;
 }
 
 .error-message:empty {
-    display: none;
+    min-height: 0;
+    margin: 0;
 }
 
 /* Success Message */
